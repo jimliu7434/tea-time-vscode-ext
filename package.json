@@ -14,8 +14,7 @@
         "onCommand:extension.startTeaTimer",
         "onCommand:extension.stopTeaTimer",
         "onCommand:extension.pauseTeaTimer",
-        "onCommand:extension.toggleTeaTimer",
-        "onLanguage:JavaScript:extension.startTeaTimer"
+        "onCommand:extension.toggleTeaTimer"
     ],
     "main": "./extension",
     "contributes": {
@@ -51,5 +50,9 @@
     },
     "dependencies": {
         "moment": "^2.22.2"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jimliu7434/tea-time-vscode-ext.git"
+    },
 }
