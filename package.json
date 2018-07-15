@@ -53,6 +53,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/jimliu7434/tea-time-vscode-ext.git"
-    },
+        "url": "https://github.com/Microsoft/vscode-wordcount.git"
+    }
 }
