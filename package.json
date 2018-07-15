@@ -2,8 +2,8 @@
     "name": "tea-time",
     "displayName": "tea-time",
     "description": "a extension to notice for a tea time",
-    "version": "0.0.1",
-    "publisher": "teatime",
+    "version": "0.0.3",
+    "publisher": "jimliu7434",
     "engines": {
         "vscode": "^1.25.0"
     },
@@ -53,6 +53,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/Microsoft/vscode-wordcount.git"
+        "url": "https://github.com/jimliu7434/tea-time-vscode-ext.git"
     }
 }
