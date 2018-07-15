@@ -11,14 +11,30 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.sayHello"
+        "onCommand:extension.startTeaTimer",
+        "onCommand:extension.stopTeaTimer",
+        "onCommand:extension.pauseTeaTimer",
+        "onCommand:extension.toggleTeaTimer",
+        "onLanguage:JavaScript:extension.startTeaTimer"
     ],
     "main": "./extension",
     "contributes": {
         "commands": [
             {
-                "command": "extension.sayHello",
-                "title": "Hello World"
+                "command": "extension.startTeaTimer",
+                "title": "teatime start"
+            },
+            {
+                "command": "extension.stopTeaTimer",
+                "title": "teatime stop"
+            },
+            {
+                "command": "extension.pauseTeaTimer",
+                "title": "teatime pause"
+            },
+            {
+                "command": "extension.toggleTeaTimer",
+                "title": "teatime toggle"
             }
         ]
     },
@@ -27,10 +43,13 @@
         "test": "node ./node_modules/vscode/bin/test"
     },
     "devDependencies": {
-        "typescript": "^2.6.1",
-        "vscode": "^1.1.6",
-        "eslint": "^4.11.0",
+        "@types/mocha": "^2.2.42",
         "@types/node": "^7.0.43",
-        "@types/mocha": "^2.2.42"
+        "eslint": "^4.11.0",
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.6"
+    },
+    "dependencies": {
+        "moment": "^2.22.2"
     }
 }
